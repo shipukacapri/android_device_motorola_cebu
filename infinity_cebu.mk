@@ -10,11 +10,16 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from device
 $(call inherit-product, device/motorola/cebu/device.mk)
 
-# Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common infinityX stuff.
+$(call inherit-product, vendor/infinity/config/common_full_phone.mk)
+
+# Infinity Flags
+INFINITY_MAINTAINER := Shipu
+# Whether Including Google Apps
+WITH_GAPPS := true
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := lineage_cebu
+PRODUCT_NAME := infinity_cebu
 PRODUCT_DEVICE := cebu
 PRODUCT_BRAND := motorola
 PRODUCT_MODEL := moto g(9) power
