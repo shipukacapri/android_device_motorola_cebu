@@ -1,0 +1,6 @@
+# Infinity Specific Properties
+ro.product.marketname=Motorola moto g9 power
+ro.infinity.soc=Snapdragon 662
+ro.infinity.camera=64MP + 2MP + 2MP + 16MP
+ro.infinity.battery=6000 mAh
+ro.infinity.display=720x1640 , IPS LCD
