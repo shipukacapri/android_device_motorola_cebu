@@ -8,6 +8,9 @@ include device/motorola/sm6225-common/BoardConfigCommon.mk
 
 DEVICE_PATH := device/motorola/cebu
 
+# for ASCP duplicates
+BUILD_BROKEN_DUP_RULES := true
+
 # A/B
 AB_OTA_PARTITIONS += \
     recovery
