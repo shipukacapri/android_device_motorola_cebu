@@ -26,3 +26,12 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="cebu_retail-user 11 RZCS31.Q2-57-12-14 3d8395 release-keys" \
     BuildFingerprint=motorola/cebu_retail/cebu:11/RZCS31.Q2-57-12-14/3d8395:user/release-keys \
     DeviceProduct=cebu_retail
+
+# Rising Flags
+WITH_GMS := true
+RISING_MAINTAINER := Shipu
+TARGET_ENABLE_BLUR := true
+
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    RisingMaintainer="Shipu" \
+    RisingChipset="Snapdragon 662"
