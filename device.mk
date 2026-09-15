@@ -55,7 +55,10 @@ PRODUCT_PACKAGES += \
     SystemUIResDevice \
     WifiResDevice \
     WifiResDeviceXT2091-7 \
-    WifiResDeviceXT2091-8 \
+    WifiResDeviceXT2091-8
+
+# Overlay Voltage Maintainer
+PRODUCT_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay-voltage
 
 # Permissions
 PRODUCT_COPY_FILES += \
